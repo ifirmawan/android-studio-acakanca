@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Acakanca</string>
+    <string name="label_daftar_anggota">Tulis Semua Nama Peserta :</string>
+    <string name="label_jumlah_tim">Jumlah Team :</string>
+    <string name="example_teams">Tulis semua nama peserta disini\nPeserta 1 \nPeserta 2 \n</string>
+    <string name="label_button_kirim">Kirim</string>
+    <string name="label_button_random">Acak</string>
+    <string name="label_hasil_acak">Hasil Acak</string>
+    <string name="send_to">Bagikan Melalui</string>
+    <string name="label_jumlah_team">Jumlah Team</string>
+    <string name="label_edit_jumlah_team">1</string>
+</resources>

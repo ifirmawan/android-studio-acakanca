@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bgdark"
+    >
+
+
+    <!-- android:scrollbars = "vertical" -->
+    <EditText
+        android:id="@+id/teams_edit_text"
+        android:inputType="textMultiLine"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:gravity="top|left"
+        android:hint="@string/example_teams"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/label_teams"
+        android:scrollbars="vertical"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:paddingLeft="@dimen/circle_vertical_margin"
+            android:drawableLeft="@drawable/ic_action_random"
+            android:id="@+id/random_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/label_button_random"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
